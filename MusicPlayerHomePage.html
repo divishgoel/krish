@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="images/music-player-logo.png">
+	 <title>Musify </title>
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+	 <link rel="stylesheet" href="audio.css">
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+
+<body>
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			 <img src="Images/music-player-logo.png">
+		 </div>
+
+		 <div id="music-player-name">
+            <h2>Musify</h2>
+		 </div>
+		</div>
+		
+		 <!--About and Contact page-->
+		 <div>
+			<a href="about.html" class="button">About</a>
+		</div>
+		<div>
+			<a href="contactpage.html" class="button">Contact Us</a>
+		</div>
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/user-image.png">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+    <!--Main body of the Music Player Home Page-->
+	<main>
+		<!--Home Screen Carousel which is slideshown with class slideshow-->
+		<div id="new-releases">
+			 <img src="Images/new-music-2.jpg">
+			 <img src="Images/new-music-1.jpg">
+			 <img src="Images/new-music-3.jpg">
+		</div>
+		<!--End of home screen carousel-->
+        
+        <!--Begining of latest release section-->
+		<div id="latest-release">
+			<!--Heading-->
+			<h1>Latest Release</h1>
+            <!--Latest Release Item div which contains the latest songs displayed-->
+			<div id="latest-release-items">
+				<!--Item 1-->
+                <div id="latest-release-item">
+                	<!--Song Image-->
+                	<a href="#audioPlayer54" class="show-audio-button">
+						<div id="latest-release-img"></div></a>
+					
+                		<!--Play Button div which is hidden and appears on hover-->
+                		<div id="latest-release-img-button" class="hide">
+                	    <!--End of Play Button Div-->
+                	 </div>
+                	 <!--End of Song Image-->
+                     <!--Div containing song details-->
+                	 <div id="latest-item-title" class="hide">
+                	     <b>Tauba-Tauba</b>
+                	     <p style="color:lightgrey">August, 2024 &emsp;&emsp; 3:27</p>
+                     </div>
+                     <!--End of div containing song details-->
+                </div>
+                <!--End of Item 1-->
+                <!--Item 2-->
+                <div id="latest-release-item">
+                	<!--Song Image-->
+					<a href="#audioPlayer55" class="show-audio-button">
+                	<div id="latest-release-img1"></div></a>
+                		<!--Play Button div which is hidden and appears on hover-->
+                		<div id="latest-release-img1-button" class="hide">
+						
+                	 <!--End of Play Button Div-->
+                     </div>
+                     <!--End of Song Image-->
+                     <!--Div containing song details-->
+                	 <div id="latest-item-title">
+                	     <b>MVP</b>
+                	     <p style="color:lightgrey">July, 2024 &emsp;&emsp; 3:16</p>
+                     </div>
+                     <!--End of div containing song details-->
+                     <!--Dropdown menu icon-->
+                	   
+                     <!--End of dropdown menu-->
+                </div>
+                <!--End of Item 2-->
+                <!--Item 3-->
+                <div id="latest-release-item">
+                	 <!--Song Image-->
+                     <a href="#audioPlayer56" class="show-audio-button">
+						<div id="latest-release-img2"></div></a>
+
+                		<!--Play Button div which is hidden and appears on hover-->
+                		<div id="latest-release-img2-button" class="hide"></div>
+                		
+                     
+                     <!--End of Song Image-->
+                     <!--Div containing song details-->
+                	 <div id="latest-item-title" class="hide">
+                	     <b>Mombattiye</b>
+                	     <p style="color:lightgrey">August, 2024 &emsp;&emsp; 3:15</p>
+                     </div>
+                     <!--End of div containing song details-->
+                     
+                </div>
+                <!--End of Item 3-->
+                <!--Item 4-->
+                 <div id="latest-release-item">
+                 	 <!--Song Image-->
+					  <a href="#audioPlayer57" class="show-audio-button">
+                	 <div id="latest-release-img3"></div></a>
+                	 	 <!--Play Button div which is hidden and appears on hover-->
+                		 <div id="latest-release-img3-button" class="hide">
+                         </div>
+                     <!--End of Song Image-->
+                     <!--Div containing song details-->
+                	 <div id="latest-item-title">
+                	     <b>Old Money</b>
+                	     <p style="color:lightgrey">August, 2024 &emsp;&emsp; 2:08</p>
+                     </div>
+                     <!--End of div containing song details-->
+                     
+                 </div>
+                <!--End of Item 4-->
+			</div>
+			<!--End of latest release item div-->
+		</div>
+		<!--End of latest release section-->
+
+		<!--Begining of Popular Artists section-->
+		<div id="popular-artists">
+			<div id="new-releases">
+			 <!--Popular Artist Section Title-->
+			 <h1>       Popular Artists</h1>
+			 <!--Begining of the popular artist list section-->
+			 <div id="popular-artist-list">
+			 	 <!--Artist 1-->
+				  <a href="MusicPlayerSinglePlaylistScreen1.html" style="text-decoration: none;"> 
+				    <div id="popular-artists-image-1">
+				        <div id="popular-artists-text" class="hide">
+			                Arijit Singh
+			            </div>
+			        </div>
+				  </a>
+			     <!--End of Artist 1-->
+                 <!--Artist 2-->
+				  <a href="MusicPlayerSinglePlaylistScreen.html"  style="text-decoration: none;">
+			        <div id="popular-artists-image-234">
+				        <div id="popular-artists-text" class="hide">
+			                Lata Mangeshkar
+			            </div>
+			        </div>
+				  </a>
+			     <!--End of Artist 2-->
+			     <!--Artist 3-->
+				  <a href="MusicPlayerSinglePlaylistScreen2.html"  style="text-decoration: none;">
+			        <div id="popular-artists-image-3">
+				        <div id="popular-artists-text" class="hide">
+			                Diljit Dosanjh
+			            </div>
+			        </div>
+				  </a>
+			     <!--End of Artist 3-->
+			     <!--Artist 4-->
+				  <a href="MusicPlayerSinglePlaylistScreen3.html"  style="text-decoration: none;">
+			        <div id="popular-artists-image-4">
+				        <div id="popular-artists-text" class="hide">
+			               Karan Aujla
+			            </div>
+			        </div>
+				  </a>
+			     <!--End of Artist 4-->
+			     <!--Artist 5-->
+				  <a href="MusicPlayerSinglePlaylistScreen4.html"  style="text-decoration: none;">
+			        <div id="popular-artists-image-5">
+				        <div id="popular-artists-text" class="hide">
+			                Badshah
+			            </div>
+			        </div>
+				  </a>
+			     <!--End of Artist 5-->
+			     <!--Begining of Artist 6-->
+				    <a href="MusicPlayerSinglePlaylistScreen5.html"  style="text-decoration: none;">
+			           <div id="popular-artists-image-6">
+				           <div id="popular-artists-text" class="hide">
+			                   Neha Kakkar
+			               </div>
+			           </div>
+			        </a>
+			     <!--End of Artist 6-->
+		        </div>
+			</div>
+		    <!--End of popular artists list div-->
+	    </div>
+        <!--End of popluar artist section-->
+
+	</main>
+	<!--End of main section-->
+
+	<!--Begining of aside section-->
+    <aside>
+        <!--Aside section header-->
+   	    <div id="aside-header">
+   	     <!--Aside section title-->
+   	      <div id="aside-title">
+   		     Queue
+   	      </div>
+          <!--End of aside section title-->
+         <!--End of dropdown menu-->
+        </div>
+        <!--End of aside section header-->
+        <!--List of Songs-->
+        <!--Song 1-->
+   	     <div id="queue-item">
+   	     	<!--Song Image-->
+				<a href="#audioPlayer" class="show-audio-button">
+   		     <div id="queue-item-img1"></div></a>
+   		         <!--Song title-->
+   		     <div id="queue-item-title">
+                 <b>G.O.A.T</b>
+                 <p style="color:lightgrey;">Diljit Dosanjh</p>
+             </div>
+             <!--End of song title-->
+             <!--Favourite icon-->
+             <div id="queue-favourite">
+        	     <i class="far fa-heart"></i>
+             </div>
+             <!--End of favourite icon-->
+       	 </div>
+       	 <!--End of song 1-->
+       	 <!--Song 2-->
+   	     <div id="queue-item">
+   	     	<!--Song Image-->
+				<a href="#audioPlayer1" class="show-audio-button">
+   		     <div id="queue-item-img1"></div></a>
+   		         <!--Song title-->
+   		     <div id="queue-item-title">
+                 <b>Clash</b>
+                 <p style="color:lightgrey;">Diljit Dosanjh</p>
+             </div>
+             <!--End of song title-->
+             <!--Favourite icon-->
+             <div id="queue-favourite">
+        	     <i class="far fa-heart"></i>
+             </div>
+             <!--End of favourite icon-->
+       	 </div>
+       	 <!--End of song 2-->
+       	 <!--Song 3-->
+   	     <div id="queue-item">
+   	     	<!--Song Image-->
+				<a href="#audioPlayer2" class="show-audio-button">
+   		     <div id="queue-item-img2"></div></a>
+   		         <!--Song title-->
+   		     <div id="queue-item-title">
+                 <b>Lutt Putt Gaya</b>
+                 <p style="color:lightgrey;">Arijit Singh</p>
+             </div>
+             <!--End of song title-->
+             <!--Favourite icon-->
+             <div id="queue-favourite">
+        	     <i class="far fa-heart"></i>
+             </div>
+             <!--End of favourite icon-->
+       	 </div>
+       	 <!--End of song 3-->
+       	 <!--Song 4-->
+		
+   	     <div id="queue-item">
+   	     	<!--Song Image-->
+			<a href="#audioPlayer3" class="show-audio-button">
+   		     <div id="queue-item-img2"></div></a>
+   		         <!--Song title-->
+   		     <div id="queue-item-title">
+                 <b>Satranga</b>
+                 <p style="color:lightgrey;">Arijit Singh</p>
+             </div>
+
+             <!--End of song title-->
+             <!--Favourite icon-->
+             <div id="queue-favourite">
+        	     <i class="far fa-heart"></i>
+             </div>
+             <!--End of favourite icon-->
+       	 </div>
+       	 <!--End of song 4-->
+ 
+   </aside>
+   <!--End of aside section-->
+   <div id="audioPlayer" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Diljit Dosanjh/G.o.a.t..mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer1" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Diljit Dosanjh/Clash.mp3" type="audio/mp3">
+    </audio>
+</div>
+   
+<div id="audioPlayer2" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Arijit Singh/Lutt Putt Gaya.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer3" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Arijit Singh/Satranga.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer54" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Main page/Tauba Tauba.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer55" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Main page/MVP.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer56" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Main page/Mombattiye.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+<div id="audioPlayer57" class="audio-player">
+    <audio controls class="styled-audio">
+        <source src="/Main page/Old Money.mp3" type="audio/mp3">
+    </audio>
+</div>
+
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->
