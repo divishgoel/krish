@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	<link rel="shortcut icon" type="png" href="images/music-player-logo.png">
+	 <title>Musify</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+
+	 <link rel="stylesheet" href="audio.css">
+
+	 <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			<a href="MusicPlayerHomePage.html">
+				 <img src="Images/music-player-logo.png">
+				 </a>
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             <h2>Musify</h2>
+		 </div>
+		</div>
+		 <!--Music Player Title div end-->
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 <!--Notification Bell div end-->
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/user-image.png">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image909">
+    		</div><!--Artist Details>-->
+			<div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Neha Kakkar</b>
+      	     	   <br/>
+      	     	   <artist-type>Indian Singer</artist-type>
+      	         </div>
+      	     	<followers>15.8M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                Kakkar was born on 6 June 1988, in Rishikesh in the state of Uttar Pradesh (now Uttarakhand). In the early 1990s, Kakkar along with her family, moved to Delhi to try her luck at singing. Kakkar, at the age of four, started performing at local gatherings and religious event.She's also appeared in music videos and judged on television reality shows, including Indian Idol.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	247 Tracks | 128 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+				<div id="song-number">
+					01
+					<a href="#audioPlayer" class="show-audio-button">
+					<img src="Images/artist-album15.png" alt="album image"></a>
+					<div id="song-details">
+						Kala Chashma
+						<br/>
+						<author>Neha Kakkar</author>
+					</div>
+				</div>
+				
+				<div id="icons">
+					<i class="far fa-heart"></i>
+					<i class="fas fa-plus"></i>
+				</div>
+			</div>
+			<!--End of Song 1-->
+			<!--Song 2-->
+			<div id="song">
+				<div id="song-number">
+					02
+					<a href="#audioPlayer1" class="show-audio-button">
+					<img src="Images/artist-album16.png" alt="album image"></a>
+					<div id="song-details">
+						Coca Cola
+						<br/>
+						<author>Neha Kakkar</author>
+					</div>
+				</div>
+				
+				<div id="icons">
+					<i class="far fa-heart"></i>
+					<i class="fas fa-plus"></i>
+				</div>
+			</div>
+			<!--End of Song 2-->
+			<!--Song 3-->
+			<div id="song">
+				<div id="song-number">
+					03
+					<a href="#audioPlayer2" class="show-audio-button">
+					<img src="Images/artist-album13.png" alt="album image"></a>
+					<div id="song-details">
+						Gaadi Kaali
+						<br/>
+						<author>Neha Kakkar</author>
+					</div>
+				</div>
+				
+				<div id="icons">
+					<i class="far fa-heart"></i>
+					<i class="fas fa-plus"></i>
+				</div>
+			</div>
+			<!--End of Song 3-->
+			<!--Song 4-->
+			<div id="song">
+				<div id="song-number">
+					04
+					<a href="#audioPlayer3" class="show-audio-button">
+					<img src="Images/artist-album14.png" alt="album image"></a>
+					<div id="song-details">
+						Dil Diyan Gallan
+						<br/>
+						<author>Neha Kakkar</author>
+					</div>
+				</div>
+				
+				<div id="icons">
+					<i class="far fa-heart"></i>
+					<i class="fas fa-plus"></i>
+				</div>
+			</div>
+			<!--End of Song 4-->
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img908"></div>
+    		<div id="song-details">
+    			Badshah
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img918"></div>
+    		<div id="song-details">
+    			Tonny Kakkar
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img928"></div>
+    		<div id="song-details">
+    			Guru Randhawa
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	
+		<div id="song">
+			<div id="song-number">
+				01
+                <a href="#audioPlayer" class="show-audio-button">
+				<img src="Images/artist-album15.png" alt="album image"></a>
+				<div id="song-details">
+					Kala Chashma
+					<br/>
+					<author>Neha Kakkar</author>
+				</div>
+			</div>
+			
+			<div id="icons">
+				<i class="far fa-heart"></i>
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+		<!--End of Song 1-->
+		<!--Song 2-->
+		<div id="song">
+			<div id="song-number">
+				02
+                <a href="#audioPlayer1" class="show-audio-button">
+				<img src="Images/artist-album16.png" alt="album image"></a>
+				<div id="song-details">
+					Coca Cola
+					<br/>
+					<author>Neha Kakkar</author>
+				</div>
+			</div>
+			
+			<div id="icons">
+				<i class="far fa-heart"></i>
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+		<!--End of Song 2-->
+		<!--Song 3-->
+		<div id="song">
+			<div id="song-number">
+				03
+                <a href="#audioPlayer2" class="show-audio-button">
+				<img src="Images/artist-album13.png" alt="album image"></a>
+				<div id="song-details">
+					Gaadi Kaali
+					<br/>
+					<author>Neha Kakkar</author>
+				</div>
+			</div>
+			
+			<div id="icons">
+				<i class="far fa-heart"></i>
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+		<!--End of Song 3-->
+		<!--Song 4-->
+		<div id="song">
+			<div id="song-number">
+				04
+				<a href="#audioPlayer3" class="show-audio-button">
+				<img src="Images/artist-album14.png" alt="album image"></a>
+				<div id="song-details">
+					Dil Diyan Gallan
+					<br/>
+					<author>Neha Kakkar</author>
+				</div>
+			</div>
+			
+			<div id="icons">
+				<i class="far fa-heart"></i>
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+		<!--End of Song 4-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+	<div id="audioPlayer" class="audio-player">
+		<audio controls muted class="styled-audio">
+			<source src="/Neha Kakkar/Kala Chashma.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	<div id="audioPlayer1" class="audio-player">
+		<audio controls muted class="styled-audio">
+			<source src="/Neha Kakkar/Coca-Cola.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	<div id="audioPlayer2" class="audio-player">
+		<audio controls muted class="styled-audio">
+			<source src="/Neha Kakkar/Gaaadi Kaali.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	<div id="audioPlayer3" class="audio-player">
+		<audio controls muted class="styled-audio">
+			<source src="/Neha Kakkar/Dil Diyan Gallan.mp3" type="audio/mp3">
+		</audio>
+	</div>
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->

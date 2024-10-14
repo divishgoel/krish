@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+    <link rel="shortcut icon" type="png" href="images/music-player-logo.png">
+	 <title>Musify</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+	 <!--Font Awesome script for using icons from font awesome-->
+
+     <link rel="stylesheet" href="audio.css">
+
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			<a href="MusicPlayerHomePage.html">
+				<img src="Images/music-player-logo.png">
+				</a>
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             <h2>Musify</h2>
+		 </div>
+		</div>
+		 <!--Music Player Title div end-->
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 <!--Notification Bell div end-->
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/user-image.png">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image13">
+    		</div><!--Artist Details>-->
+            <div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Karan Aujla</b>
+      	     	   <br/>
+      	     	   <artist-type>Indian Singer and Rapper</artist-type>
+      	         </div>
+      	     	<followers>17.9M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                Born in Ghurala, India, Karan Aujla began song writing as a means of coping with the loss of his parents. After moving to Canada at 17, he penned songs for Punjabi artists before gaining fame with his own release that was 2018's "Don't Worry." His debut album, (B.T.F.U.), showcased his vocal talent in unison with trance-like Punjabi folk production, landing #6 on Spotify's Global Chart. This solidified him as a global ambassador of Punjabi music worldwide as he continued to release Billboard charting singles as India's most prominent artist. Karan Aujla is approaching 3 billion views on YouTube, has garnered over one billion audio streams, 17 million Spotify monthly listeners and 8 million followers across his social media channels.Karan serves as a cultural bridge.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	102 Tracks | 95 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    	<div id="song">
+            <div id="song-number">
+                01
+                <a href="#audioPlayer" class="show-audio-button">
+                <img src="Images/artist-album4.jpg" alt="album image"></a>
+                <div id="song-details">
+                    Tauba-Tauba
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 1-->
+        <!--Song 2-->
+        <div id="song">
+            <div id="song-number">
+                02
+                <a href="#audioPlayer1" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    White Brown Black
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 2-->
+        <!--Song 3-->
+        <div id="song">
+            <div id="song-number">
+                03
+                <a href="#audioPlayer2" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    God Damn
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 3-->
+        <!--Song 4-->
+        <div id="song">
+            <div id="song-number">
+                04
+                <a href="#audioPlayer3" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    Softly
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 4-->
+        
+    		
+
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img"></div>
+    		<div id="song-details">
+    			Badshah
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img3"></div>
+    		<div id="song-details">
+    			Diljit Dosanjh
+    			<br/>
+    	    <author>Pop Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img999"></div>
+    		<div id="song-details">
+    			AP Dhillon
+    			<br/>
+    	    <author>Indo-Canadian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+            <div id="song-number">
+                01
+                <a href="#audioPlayer" class="show-audio-button">
+                <img src="Images/artist-album4.jpg" alt="album image"></a>
+                <div id="song-details">
+                    Tauba-Tauba
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 1-->
+        <!--Song 2-->
+        <div id="song">
+            <div id="song-number">
+                02
+                <a href="#audioPlayer1" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    White Brown Black
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 2-->
+        <!--Song 3-->
+        <div id="song">
+            <div id="song-number">
+                03
+                <a href="#audioPlayer2" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    God Damn
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 3-->
+        <!--Song 4-->
+        <div id="song">
+            <div id="song-number">
+                04
+                <a href="#audioPlayer3" class="show-audio-button">
+                <img src="Images/artist-album3.jpg" alt="album image"></a>
+                <div id="song-details">
+                    Softly
+                    <br/>
+                    <author>Karan Aujla</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 4-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+    <div id="audioPlayer" class="audio-player">
+        <audio controls class="styled-audio">
+            <source src="/Karan Aujla/Tauba Tauba.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    
+    <div id="audioPlayer1" class="audio-player">
+        <audio controls class="styled-audio">
+            <source src="/Karan Aujla/White Brown Black.mp3" type="audio/mp3">
+        </audio>
+    </div>
+       
+    <div id="audioPlayer2" class="audio-player">
+        <audio controls class="styled-audio">
+            <source src="/Karan Aujla/God Damn.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    
+    <div id="audioPlayer3" class="audio-player">
+        <audio controls class="styled-audio">
+            <source src="/Karan Aujla/Softly.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<!--Begining of head section--> 
+<head>
+	<link rel="shortcut icon" type="png" href="images/music-player-logo.png">
+	 <title>Musify</title>
+	 <!--Linking the CSS stylesheet using extrenal CSS-->
+	 <link rel="stylesheet" type="text/css" href="MusicPlayerStyle.css">
+	 <link rel="stylesheet" href="audio.css">
+	 <!--Font Awesome script for using icons from font awesome-->
+	 <script src="https://kit.fontawesome.com/6f0f83005a.js" crossorigin="anonymous"></script>
+	 <!--Adds responsiveness to the website-->
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"/>
+</head>
+<!--End of head section-->
+<body>
+	<!--Begining of navigation bar section-->
+	<nav>
+		<!--Music Player Logo div-->
+		<div id="music-player-tag">
+		 <div id="music-player-logo">
+			<a href="MusicPlayerHomePage.html">
+				<img src="Images/music-player-logo.png">
+				</a>
+		 </div>
+		 <!--Music Player Logo div end-->
+
+		 <!--Music Player Title-->
+		 <div id="music-player-name">
+             <h2>Musify</h2>
+		 </div>
+		</div>
+		 <!--Music Player Title div end-->
+
+         <!--Search Bar div-->
+         <div id="search-bar-utility">
+		 <div id="search-bar">
+			 <form>
+				 <input type="text" placeholder="Search...">
+				 <!--Search Icon-->
+				 <i class="fas fa-search"></i>
+			 </form>
+		 </div>
+		 <!--Search Bar div end-->
+
+         <!--Notification Bell div-->
+		 <div id="notifications">
+			 <i class="fas fa-bell"></i>
+		 </div>
+		 <!--Notification Bell div end-->
+
+         <!--User Image div-->
+		 <div id="user">
+			 <img src="Images/user-image.png">
+		 </div>
+		</div>
+		 <!--User Image div end-->
+	</nav>
+    <!--End of navigation bar section-->
+
+
+    <!--Main Section-->
+    <main>
+    	<!--Artist Template-->
+    	<div id="artist-template">
+    		<div id="artist-image2">
+    		</div><!--Artist Details>-->
+            <div id="artist-details">
+      	     <!--Artist Title-->
+      	     <div id="artist-title">
+      	     	<div>
+      	     	   <b>Daljit Singh Dosanjh</b>
+      	     	   <br/>
+      	     	   <artist-type>Playback Singer and<br>music composer</artist-type>
+      	         </div>
+      	     	<followers>19.1M followers</followers>
+      	      </div>
+              <!--End of Artist Title-->
+              <!--Artist Intro-->
+      	     <div id="artist-intro">
+                Daljit Singh Dosanjh, popularly known as Diljit Dosanjh, is a singer, actor, and television presenter who works in the Hindi and Punjabi film industry. He is a leading artiste in the music industry in Punjab.
+
+Dosanjh spent the initial days of his life in Dosanjh Kalan before moving to Ludhiana, Punjab. He was a student of Sri Guru Harkrishan Public School in Ludhiana.
+
+Dosanjh performed Kirtan and sang devotional songs at local Gurdwaras during his school days. His first music album was Ishq Da Uda Ada, released in 2004 and how this his journey starts.
+      	     </div>
+      	     <!--End of Artist Intro-->
+      	     <!--Miscellaneous Buttons-->
+      	      <div id="artist-buttons">
+      	 	<div id="playall-button">
+      	 		Play All
+      	 	</div>
+      	 	<div id="follow-button">
+      	 		Follow
+      	 	</div>
+      	 </div>
+      	 <div id="tracks">
+      	 	102 Tracks | 95 Albums
+      	 </div>
+      	 <!--End of miscellaeous buttons-->
+      	 </div>
+         <!--End of artist details-->
+    	</div>
+    	<!--End of artist template-->
+
+    	<!--Begining of artist songs-->
+    	<div id="artist-songs">
+    		<!--Song 1-->
+    		<div id="song">
+    			<div id="song-number">
+    			    01
+					<a href="#audioPlayer" class="show-audio-button">
+    			    <img src="Images/artist-album2.png" alt="album image"></a>
+    			    <div id="song-details">
+    			    	G.O.A.T
+    			    	<br/>
+    			    	<author>Diljit Dosanjh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 1-->
+    		<!--Song 2-->
+    		<div id="song">
+    			<div id="song-number">
+    			    02
+					<a href="#audioPlayer1" class="show-audio-button">
+    			    <img src="Images/artist-album2.png" alt="album image"></a>
+    			    <div id="song-details">
+    			    	Clash
+    			    	<br/>
+    			    	<author>Diljit Dosanjh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 2-->
+    		<!--Song 3-->
+    		<div id="song">
+    			<div id="song-number">
+    			    03<a href="#audioPlayer2" class="show-audio-button">
+    			    <img src="Images/artist-album2.png" alt="album image"></a>
+    			    <div id="song-details">
+    			    	Taare
+    			    	<br/>
+    			    	<author>Diljit Dosanjh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 3-->
+    		<!--Song 4-->
+    		<div id="song">
+    			<div id="song-number">
+    			    04
+					<a href="#audioPlayer3" class="show-audio-button">
+    			    <img src="Images/artist-album2.png" alt="album image"></a>
+    			    <div id="song-details">
+    			    	Born to Shine
+    			    	<br/>
+    			    	<author>Diljit Dosanjh</author>
+    			    </div>
+    		    </div>
+    			
+    			<div id="icons">
+    				<i class="far fa-heart"></i>
+    				<i class="fas fa-plus"></i>
+    			</div>
+    		</div>
+    		<!--End of Song 4-->
+    		
+
+    </main>
+    <!--End of main section-->
+    
+    <!--Begining of Aside Section-->
+    <aside>
+    	<div id="aside-header-1">
+    		Similar Artists
+    		<x>View All</x>
+    	</div>
+        <!--Similar artist-->
+    	<div id="similar-artist">
+    		<div id="artist-img220"></div>
+    		<div id="song-details">
+    			Sidhu Moose Wala
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img221"></div>
+    		<div id="song-details">
+    			Karan Aujla
+    			<br/>
+    	    <author>Indian Singer</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+
+    	<div id="similar-artist">
+    		<div id="artist-img222"></div>
+    		<div id="song-details">
+    			Shubh
+    			<br/>
+    	    <author>Musical Artist</author>
+    	    </div>
+    	    <i class="fas fa-ellipsis-h"></i>
+    	</div>
+        <!--End of Similar artist-->
+    	<div id="aside-header-2">
+    		Recently Played
+    		<x>View All</x>
+    	</div>
+        <!--Recently Played Songs-->
+        <!--Song 1-->
+    	<div id="song">
+            <div id="song-number">
+                01
+				<a href="#audioPlayer" class="show-audio-button">
+                <img src="Images/artist-album2.png" alt="album image"></a>
+                <div id="song-details">
+                    G.O.A.T
+                    <br/>
+                    <author>Diljit Dosanjh</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 1-->
+        <!--Song 2-->
+        <div id="song">
+            <div id="song-number">
+                02
+				<a href="#audioPlayer1" class="show-audio-button">
+                <img src="Images/artist-album2.png" alt="album image"></a>
+                <div id="song-details">
+                    Clash
+                    <br/>
+                    <author>Diljit Dosanjh</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 2-->
+        <!--Song 3-->
+        <div id="song">
+            <div id="song-number">
+                03
+				<a href="#audioPlayer2" class="show-audio-button">
+                <img src="Images/artist-album2.png" alt="album image"></a>
+                <div id="song-details">
+                    Taare
+                    <br/>
+                    <author>Diljit Dosanjh</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 3-->
+        <!--Song 4-->
+        <div id="song">
+            <div id="song-number">
+                04
+				<a href="#audioPlayer3" class="show-audio-button">
+                <img src="Images/artist-album2.png" alt="album image"></a>
+                <div id="song-details">
+                    Born to Shine
+                    <br/>
+                    <author>Diljit Dosanjh</author>
+                </div>
+            </div>
+            
+            <div id="icons">
+                <i class="far fa-heart"></i>
+                <i class="fas fa-plus"></i>
+            </div>
+        </div>
+        <!--End of Song 4-->
+    		<!--End of recently played songs-->
+    </aside>
+    <!--End of aside-->
+	<div id="audioPlayer" class="audio-player">
+		<audio controls class="styled-audio">
+			<source src="/Diljit Dosanjh/G.o.a.t..mp3" type="audio/mp3">
+		</audio>
+	</div>
+	
+	<div id="audioPlayer1" class="audio-player">
+		<audio controls class="styled-audio">
+			<source src="/Diljit Dosanjh/Clash.mp3" type="audio/mp3">
+		</audio>
+	</div>
+
+	<div id="audioPlayer2" class="audio-player">
+		<audio controls class="styled-audio">
+			<source src="/Diljit Dosanjh/Taare.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	
+	<div id="audioPlayer3" class="audio-player">
+		<audio controls class="styled-audio">
+			<source src="/Diljit Dosanjh/Born-To-Shine.mp3" type="audio/mp3">
+		</audio>
+	</div>
+
+</body>
+<!--End of body section-->
+</html>
+<!--End of html code-->
